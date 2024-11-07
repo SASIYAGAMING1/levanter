@@ -32,7 +32,7 @@ if (!existsSync('levanter')) {
   const configPath = 'levanter/config.env'
   try {
     console.log('Writing to config.env...')
-    writeFileSync(configPath, `VPS=true\nSESSION_ID=${SESSION_ID}`)
+    writeFileSync(configPath, `VPS=true\nSESSION_ID=${levanter_7de336fee6aa84cc1ae7ea594563744d1}`)
   } catch (err) {
     throw new Error(`Failed to write to config.env: ${err.message}`)
   }
